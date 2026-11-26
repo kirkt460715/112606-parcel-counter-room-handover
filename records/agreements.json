@@ -1,0 +1,42 @@
+[
+  {
+    "id": "lease-a",
+    "zones": {
+      "front": "parcel",
+      "side": "shared",
+      "rear": "reading"
+    },
+    "default_holder": {
+      "side": "reading"
+    },
+    "charges": {
+      "rent": "custody",
+      "support": "usable"
+    },
+    "protected": [
+      [
+        550,
+        610
+      ]
+    ]
+  },
+  {
+    "id": "slot-p",
+    "zone": "side",
+    "requested_by": "parcel",
+    "period": [
+      490,
+      645
+    ]
+  },
+  {
+    "id": "slot-r",
+    "zone": "side",
+    "holder": "reading",
+    "period": [
+      550,
+      610
+    ],
+    "confirmed": true
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "part-a",
+    "zone": "side",
+    "portion": "near",
+    "passed_to": "parcel",
+    "actual": 492,
+    "left_items": []
+  },
+  {
+    "id": "part-b",
+    "zone": "side",
+    "portion": "far",
+    "passed_to": null,
+    "occupied": [
+      "reader-bag-1"
+    ],
+    "observed_at": 500
+  },
+  {
+    "id": "late-b",
+    "zone": "side",
+    "portion": "far",
+    "passed_to": "parcel",
+    "actual": 620,
+    "received_at": 700
+  },
+  {
+    "id": "service-a",
+    "zone": "side",
+    "portion": "near",
+    "period": [
+      510,
+      550
+    ],
+    "status": "unavailable"
+  }
+]
